@@ -2,7 +2,7 @@
 
 char* welcome() {
     int num;
-    scanf("num",&f);
+    scanf("%f",&num);
     printf("You entered:%f,num);
     return 0;
     
