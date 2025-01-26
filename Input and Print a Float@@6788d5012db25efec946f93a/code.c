@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-char* welcome() {
+int main(){
     int num;
     scanf("%f",&num);
     printf("You entered:%f,num);
