@@ -8,6 +8,6 @@ int main() {
         for(j=1;j<=formula;j++) {
             printf("* ");
         }
-        printf("\n")
+        printf("\n");
     }
 }
