@@ -1,5 +1,5 @@
 // Your code here...
-int fibnocci(int n) {
+int fibnocciSeries(int n) {
     int a=0,b=1;
     for( int i=1;i<=n;i++) {
         printf("%d ", a);
