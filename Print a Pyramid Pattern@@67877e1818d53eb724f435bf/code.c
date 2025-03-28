@@ -1,13 +1,16 @@
 // Your code here...
 int main() {
-    int i,j,n;
+    int i,j,n,space;
     scanf("%d",&n);
     for(i=1;i<=n;i++) {
-        int formula=2i+1;
-        for(j=1;j<=formula;j++) {
-            printf("* ");
+        for space(space=1;space<=n-i;space++) {
+            printf(" ");
+        }
+        for(j=1;j<=2*i-1;j++) {
+            printf("* ")
         }
         printf("\n");
+        
     }
     return 0;
 }
