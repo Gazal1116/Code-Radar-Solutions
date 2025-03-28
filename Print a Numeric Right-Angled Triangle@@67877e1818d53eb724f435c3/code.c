@@ -1,12 +1,13 @@
 // Your code here...
 #include<stdio.h>
 int main() {
-    int i,j,n,z=1;
-    scanf("%d",&n);
-    for(i=1;i<=n;i++) {
+    int i,j,n,z;
+    scanf("%d",&n)
+    for(i=1;i<=n;i++){
         int formula=i;
-        for(j=1;formula;j++) {
-            printf("%d",j);
+        for(j=1;j<=formula;j++){
+            printf( "%d ",j);
+
         }
         printf("\n");
     }
