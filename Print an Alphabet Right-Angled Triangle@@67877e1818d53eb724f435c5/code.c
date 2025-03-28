@@ -7,6 +7,7 @@ int main() {
         int formula=i;
         for(j=1;j<=formula;j++){
             printf("%c",z);
+            z++;
 
         }
         printf("\n");
