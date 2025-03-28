@@ -1,17 +1,14 @@
 // Your code here...
-#include<stdio.h>
+#include <stdio.h>
 int main() {
     int i,j,n;
     scanf("%d", &n);
-    for(i=1;i<=n;i++){
-        char z='A';
-        int formula=i;
-        for(j=1;j<=formula;j++){
-            printf("%c",z);
-            z++;
-
+    for(i=1;i<=n;i++) {
+        char a='A';
+        for (j=1;j<=i;j++) {
+            printf("%c ", a);
+            a++;
         }
         printf("\n");
     }
-    return 0;
 }
