@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++) {
-        scanf("%d",&arr[n])
+        scanf("%d",&arr[n]);
     }
     int prime=0;
     for(j=0;j<n;j++) {
@@ -25,4 +25,5 @@ int main() {
 
      printf("%d",prime);
 
-}
+   }
+}  
