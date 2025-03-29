@@ -1,4 +1,3 @@
-
 // Your code here...
 #include <stdio.h>
 int main(){
@@ -9,15 +8,13 @@ int main(){
         scanf("%d",&array[i]);
     }
     int k=1;
-    for( int j=0;j<n;j++) {
-        if(array[j]!= array[n-j-1]) {
+    for(int j=0;j<n;j++){
+        if(array[j]!=array[n-j-1]){
             k=0;
             break;
         }
     }
-    if(k=1) {
-        printf("Yes");
-    }else{
-        printf("No");
-    }
+    if(k){printf("YES");}
+    else{printf("NO");}
+    return 0;
 }
