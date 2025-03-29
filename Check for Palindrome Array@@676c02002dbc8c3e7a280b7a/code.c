@@ -4,18 +4,18 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int arr[n];
+    int array[n];
     for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+        scanf("%d",&array[i]);
     }
     int k=1;
     for( int j=1;j<n-j-1;j++) {
-        if(arr[j]!= arr[n-j-1]) {
+        if(array[j]!= array[n-j-1]) {
             k=0;
             break;
         }
     }
-    if(k) {
+    if(k=1) {
         printf("Yes");
     }else{
         printf("No");
