@@ -8,7 +8,7 @@ int main() {
         scanf("%d",&arr[n]);
     }
     int prime=0;
-    for(j=0;j<n;j++) {
+    for( int j=0;j<n;j++) {
 
          if (arr[j]>1){
              int count=0;
