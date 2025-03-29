@@ -15,7 +15,7 @@ int main(){
             break;
         }
     }
-    if(k=1) {
+    if(k) {
         printf("Yes");
     }else{
         printf("No");
