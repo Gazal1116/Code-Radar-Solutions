@@ -9,7 +9,7 @@ int main(){
         scanf("%d",&array[i]);
     }
     int k=1;
-    for( int j=0;j<n-j-1;j++) {
+    for( int j=0;j<n;j++) {
         if(array[j]!= array[n-j-1]) {
             k=0;
             break;
