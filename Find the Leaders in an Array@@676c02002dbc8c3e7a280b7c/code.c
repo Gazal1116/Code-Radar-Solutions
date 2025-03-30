@@ -17,7 +17,7 @@ int main() {
             }
         }
         if(isfound==1) {
-            printf("%d",array[i]);
+            printf("%d ",array[i]);
         }
     }
     printf("%d",array[n-1]);
