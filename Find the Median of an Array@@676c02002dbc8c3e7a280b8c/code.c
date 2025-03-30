@@ -23,7 +23,7 @@ int main(){
     }
     else{
         int e=n/2;
-        printf("%d",array[e-1]);
+        printf("%d",array[e]);
     }
     return 0;
 }
