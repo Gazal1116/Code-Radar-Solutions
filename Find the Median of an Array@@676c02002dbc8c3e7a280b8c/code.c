@@ -18,7 +18,7 @@ int main(){
     }
     if(n%2==0){
         int e=n/2;
-        int avg=(array[e+1]+array[e])/2;
+        int avg=(array[e-1]+array[e])/2;
         printf("%d",avg);
     }
     else{
