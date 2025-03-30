@@ -9,7 +9,7 @@ int main(){
   }
   for(int i=0;i<n-1;i++){
     int isfound=1;
-    for(int j=i+1;j<n;j++){
+    for(int j=i+1;j<n-1;j++){
       if(array[i]<array[j]){
         isfound=0;
         break;
