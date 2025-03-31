@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main() {
-    int n;
+    int n,a;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++) {
@@ -9,7 +9,7 @@ int main() {
     }
     int k;
     scanf("%d",&k);
-    k=k% int a;
+    k=k%  a;
     for(int i=n-k;i<n;i++) {
         printf("%d",arr[i]);
     }
