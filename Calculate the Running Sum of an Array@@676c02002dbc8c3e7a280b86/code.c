@@ -9,7 +9,7 @@ int main() {
     }
     int count=0;
     for(int j=0;j<n;j++) {
-        count += arr[i];
+        count += arr[j];
         printf("%d ",count);
     }
     return 0;
