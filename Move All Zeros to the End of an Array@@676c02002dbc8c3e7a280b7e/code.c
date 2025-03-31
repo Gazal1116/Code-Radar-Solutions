@@ -17,5 +17,8 @@
              printf("%d ",&arr[j]);
             }
     }
-     for (int j=0;j<count;j++)
+     for (int j=0;j<count;j++) {
+        printf("0");
+    }
+    return 0;
 }
